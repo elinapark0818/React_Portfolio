@@ -1,0 +1,23 @@
+.hello {
+  position: absolute;
+  left: 2em;
+  top: 2em;
+  width: 14em;
+  color: #191919;
+  font-size: 2em;
+  opacity: 1;
+  transform: rotate(90deg);
+  transform-origin: left center;
+  font-family: Russo, cursive;
+  transition: opacity 0.3s;
+}
+
+.aside {
+  left: 0;
+  top: 2em;
+  z-index: 12;
+  width: 10em;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+}

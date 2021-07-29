@@ -1,0 +1,28 @@
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  height: 4em;
+  transition: all 300ms ease-in-out;
+}
+
+.navbar__menu {
+  display: flex;
+  list-style: none;
+}
+
+.navbar__item {
+  color: blue;
+  font-size: 2em;
+  font-weight: bolder;
+  padding: 8px 12px;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.navbar__item:hover {
+  color: white;
+}

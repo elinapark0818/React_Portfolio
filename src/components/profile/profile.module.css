@@ -1,0 +1,21 @@
+.section {
+  padding-top: 4em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.avatar {
+  float: left;
+  border: 1px solid red;
+  border-radius: 1em;
+  width: 30em;
+  height: auto;
+}
+
+.description {
+  font-size: 3em;
+}
