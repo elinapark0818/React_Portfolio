@@ -8,6 +8,12 @@
   align-items: center;
 }
 
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .i {
   font-size: 4em;
   width: 1em;

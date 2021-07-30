@@ -1,6 +1,9 @@
 import React from 'react';
 import styles from './contact.module.css';
+
+
 import { SiGithub } from "react-icons/si";
+import { SiGoogle } from "react-icons/si";
 
 const Contact = (props) => {
   return (
@@ -9,7 +12,10 @@ const Contact = (props) => {
       <SiGithub className={styles.i}/>
       <p className={styles.description}>github.com/elinapark0818</p>
     </div>
-    <h1>email : elinapark0818@gmail.com</h1>
+    <div className={styles.email}>
+      <SiGoogle className={styles.i}/>
+      <h1>elinapark0818@gmail.com</h1>
+    </div>
   </div>
 
   )

@@ -3,12 +3,11 @@
   left: 2em;
   top: 2em;
   width: 14em;
-  color: #191919;
+  color: black;
   font-size: 2em;
   opacity: 1;
   transform: rotate(90deg);
   transform-origin: left center;
-  font-family: Russo, cursive;
   transition: opacity 0.3s;
 }
 
