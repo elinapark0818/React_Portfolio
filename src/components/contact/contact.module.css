@@ -1,6 +1,8 @@
 .container {
   background-color: yellow;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .title {
@@ -8,13 +10,11 @@
   margin: 0;
 }
 
-.icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.list {
+  list-style: none;
 }
 
-.email {
+.icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,9 +33,4 @@
 .i:hover,
 .icon:hover {
   filter: invert(80%);
-}
-
-.description {
-  display: none;
-  font-size: 2em;
 }

@@ -5,7 +5,7 @@ import styles from './aside.module.css';
 const Aside = (props) => {
   return (
       <aside className={styles.aside}>
-        <p className={styles.hello}>Hello strainger! 😄</p>
+        <p className={styles.hello}>Hello stranger! 😄</p>
       </aside>
     
   )

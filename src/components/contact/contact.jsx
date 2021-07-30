@@ -1,28 +1,33 @@
 import React from 'react';
 import styles from './contact.module.css';
-
-
 import { SiGithub } from "react-icons/si";
 import { SiGoogle } from "react-icons/si";
+import { BrowserRouter, Link } from 'react-router-dom';
 
 const Contact = (props) => {
   return (
-    <section>
 
-      <div className={styles.container}>
-        <h1 className={styles.title}>Contact Me💌</h1>
-        <div className={styles.icon}>
-          <SiGithub className={styles.i}/>
-          <p className={styles.description}>github.com/elinapark0818</p>
+    <BrowserRouter>
+      <section className={styles.section}>
+        <div className={styles.container}>
+          <h1 className={styles.title}>Contact Me💌</h1>
+          <div className={styles.icon}>
+            <ul className={styles.list}>
+              <li>
+                <Link to="/github">
+                  <SiGithub className={styles.i}/>
+                </Link>
+              </li>
+              <li>
+                <Link to="/email">
+                  <SiGoogle className={styles.i}/>
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
-        
-        <div className={styles.email}>
-          <SiGoogle className={styles.i}/>
-          <p className={styles.description}>elinapark0818@gmail.com</p>
-        </div>
-
-      </div>
-    </section>
+      </section>
+    </BrowserRouter>
 
   )
 }
