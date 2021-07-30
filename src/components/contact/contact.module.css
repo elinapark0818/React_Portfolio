@@ -1,5 +1,11 @@
 .container {
+  background-color: yellow;
   text-align: center;
+}
+
+.title {
+  font-size: 5em;
+  margin: 0;
 }
 
 .icon {
@@ -15,7 +21,8 @@
 }
 
 .i {
-  font-size: 4em;
+  padding-bottom: 0.5em;
+  font-size: 3em;
   width: 1em;
   height: 1em;
   line-height: 1em;
@@ -29,6 +36,6 @@
 }
 
 .description {
-  font-size: 3em;
-  background-color: crimson;
+  display: none;
+  font-size: 2em;
 }

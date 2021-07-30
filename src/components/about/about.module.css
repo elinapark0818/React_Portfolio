@@ -1,6 +1,16 @@
+.container {
+  background-color: yellowgreen;
+}
+
 .title {
-  color: blue;
   font-size: 5em;
+  text-align: center;
+  margin: 0;
+}
+
+.subtitle {
+  color: blue;
+  font-size: 4em;
   text-align: center;
   margin: 0.2em;
 }

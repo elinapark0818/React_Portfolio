@@ -15,7 +15,9 @@ import { SiYarn } from "react-icons/si";
 const About = (props) => 
   <section className={styles.section}>
 
-    <h1 className={styles.title}>✔ My Specification</h1>
+    <div className={styles.container}>
+    <h1 className={styles.title}>About</h1>
+    <h1 className={styles.subtitle}>✔ My Specification</h1>
 
     <div className={styles.skills}>
       <div className={styles.icon}>
@@ -36,7 +38,7 @@ const About = (props) =>
       </div>
     </div>
     
-    <h1 className={styles.title}>✔ Favorite Tools</h1>
+    <h1 className={styles.subtitle}>✔ Favorite Tools</h1>
 
     <div className={styles.tools}>
       <div className={styles.icon}>
@@ -69,6 +71,9 @@ const About = (props) =>
       </div>
 
     </div>
+    </div>
+
+    
   </section>
 
 export default About
