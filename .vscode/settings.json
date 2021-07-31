@@ -1,4 +1,8 @@
 {
   "git.ignoreLimitWarning": true,
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#b0ff57",
+    "titleBar.inactiveBackground": "#b0ff57"
+  }
 }
