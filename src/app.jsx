@@ -1,25 +1,21 @@
-import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
-import Home from './components/home';
-import Profile from './components/profile';
+import styles from './app.module.css';
+import Home from './components/home/home';
+import Profile from './components/profile/profile';
+import Projects from './components/projects/projects';
+import Contact from './components/contact/contact';
+import Menu from './components/menu/menu';
+import Skills from './components/skills/skills';
 
 function App() {
   return (
-    <BrowserRouter>
-      <nav>
-        <Link to="/">Home</Link>
-        <br />
-        <Link to="/profile">Profile</Link>
-      </nav>
-
-      <Switch>
-        <Route path={['/', '/home']} exact>
-          <Home />
-        </Route>
-        <Route path="/profile">
-          <Profile />
-        </Route>
-      </Switch>
-    </BrowserRouter>
+    <div className={styles.app}>
+      <Menu />
+      <Home />
+      <Profile />
+      <Skills />
+      <Projects />
+      <Contact />
+    </div>
   );
 }
 
