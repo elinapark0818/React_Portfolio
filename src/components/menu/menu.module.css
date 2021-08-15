@@ -25,4 +25,6 @@
 
 .navbar__menu__item:hover {
   transform: scale(1.1);
+  color: yellow;
+  border-radius: 0.5em;
 }

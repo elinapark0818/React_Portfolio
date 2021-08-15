@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gaegu";
+}
+
+.image {
+  display: flex;
+}
+
+.avatar {
+  width: 20em;
+  height: auto;
+  margin-top: 1em;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 2em;
+  font-size: 1.3em;
+}
