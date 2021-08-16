@@ -3,23 +3,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  font-size: 1em;
   font-family: "Gaegu";
-}
-
-.image {
-  display: flex;
+  margin: 1em;
+  background-color: white;
 }
 
 .avatar {
   width: 20em;
-  height: auto;
-  margin-top: 1em;
+  margin-right: 3em;
 }
 
-.title {
+.basic {
+  display: flex;
+}
+
+.profile {
+  margin-right: 1em;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  margin-left: 2em;
-  font-size: 1.3em;
+  align-items: flex-end;
 }
