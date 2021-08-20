@@ -6,7 +6,9 @@
   font-size: 1em;
   font-family: "Gaegu";
   margin: 1em;
-  background-color: white;
+  background-color: #3d5361;
+  color: white;
+  margin-top: 1em;
 }
 
 .avatar {

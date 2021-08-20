@@ -1,0 +1,32 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gaegu";
+  margin: 1em;
+  background-color: #3d5361;
+  color: white;
+  margin-top: 1em;
+}
+
+.skill_category {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.skill_item {
+  margin: 1em;
+}
+
+.skill_icon {
+  margin: 0;
+  font-size: 5em;
+}
+
+.skill_icon:hover {
+  color: #3d5361;
+  transform: rotate(30deg) scale(1.1);
+}

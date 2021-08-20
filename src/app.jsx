@@ -7,6 +7,7 @@ import Profile from './components/profile/profile';
 // import Menu from './components/menu/menu';
 // import Skills from './components/skills/skills';
 import { useSpring, animated } from 'react-spring';
+import Skills from './components/skills/skills';
 // import Star from './components/star/star';
 
 function App() {
@@ -14,12 +15,17 @@ function App() {
     to: { opacity: 1, marginTop: 0}, from: { opacity: 0, marginTop: -500 } })
 
   return (
-    <div className={styles.app}>
+  <div className={styles.app}>
+    <div className={styles.header}>
       <animated.div style={display}>
         <Home />
       </animated.div>
-      <Profile />
     </div>
+    <div className={styles.main}>
+      <Profile />
+      <Skills />
+    </div>
+  </div>
   );
 }
 
