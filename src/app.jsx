@@ -1,4 +1,4 @@
-import React, { Component ,Fragment } from 'react';
+import React from 'react';
 import styles from './app.module.css';
 import Home from './components/home/home';
 import Profile from './components/profile/profile';
@@ -6,9 +6,8 @@ import Profile from './components/profile/profile';
 // import Contact from './components/contact/contact';
 // import Menu from './components/menu/menu';
 // import Skills from './components/skills/skills';
-import { useSpring, animated, Trail } from 'react-spring';
-import LoopTrue from './components/loop/loop';
-import Star from './components/star/star';
+import { useSpring, animated } from 'react-spring';
+// import Star from './components/star/star';
 
 function App() {
   const display = useSpring({ 
@@ -19,8 +18,7 @@ function App() {
       <animated.div style={display}>
         <Home />
       </animated.div>
-      <LoopTrue />
-      <Star />
+      <Profile />
     </div>
   );
 }
