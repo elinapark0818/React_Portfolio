@@ -4,7 +4,7 @@ import Home from './components/home/home';
 import Profile from './components/profile/profile';
 import { useSpring, animated } from 'react-spring';
 import Skills from './components/skills/skills';
-import ContactBtn from './components/contact/contact_btn';
+import ContactBtn from './components/contact_btn/contact_btn';
 import Menu from './components/menu/menu';
 import Projects from './components/projects/projects';
 import Contact from './components/contact/contact';
@@ -20,7 +20,7 @@ export default function App() {
       <animated.div style={display}>
       <Home />
       </animated.div>
-      <ContactBtn />
+      
     </header>
     <div className={styles.main}>
       <Profile />
@@ -28,6 +28,7 @@ export default function App() {
       <Projects />
     </div>
     <footer className={styles.footer}>
+      <ContactBtn />
       <Contact />/
     </footer>
   </div>

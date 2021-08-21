@@ -18,11 +18,11 @@ export default function Menu() {
     <Router>
       <nav className={styles.navbar}>
         <ul className={styles.navbar__menu}>
-          <li className={styles.navbar__item}><Link className={styles.link} to='/' component={Home} exact>Home</Link></li>
-          <li className={styles.navbar__item}><Link className={styles.link} to='/profile' component={Profile} exact>Profile</Link></li>
-          <li className={styles.navbar__item}><Link className={styles.link} to='/skills' component={Skills} exact>Skills</Link></li>
-          <li className={styles.navbar__item}><Link className={styles.link} to='/projects' component={Projects} exact>Projects</Link></li>
-          <li className={styles.navbar__item}><Link className={styles.link} to='/contact' component={Contact} exact>Contact</Link></li>
+          <li className={styles.navbar__item}><Link className={styles.link} to='/' >Home</Link></li>
+          <li className={styles.navbar__item}><Link className={styles.link} to='/profile'>Profile</Link></li>
+          <li className={styles.navbar__item}><Link className={styles.link} to='/skills' >Skills</Link></li>
+          <li className={styles.navbar__item}><Link className={styles.link} to='/projects'>Projects</Link></li>
+          <li className={styles.navbar__item}><Link className={styles.link} to='/contact'>Contact</Link></li>
         </ul>
       </nav>
     </Router>
