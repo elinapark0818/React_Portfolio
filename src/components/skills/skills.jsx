@@ -4,35 +4,43 @@ import { SiHtml5 } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
 import { SiReact } from "react-icons/si";
+import { SiPostcss } from "react-icons/si";
+import { SiNetlify } from "react-icons/si";
+import { SiGit } from "react-icons/si";
+import { SiReactrouter } from "react-icons/si";
+import { SiGithub } from "react-icons/si";
+import { SiVisualstudiocode } from "react-icons/si";
+import { SiFirebase } from "react-icons/si";
+import { SiJira } from "react-icons/si";
 
 export default function Skills() {
   return (
     <div className={styles.skills}>
       <h1>Skills</h1>
         <ul className={styles.skill_category}>
-          <li className={styles.skill_item}>
-            <div className={styles.skill_icon}>
+        <li className={styles.skill_item}>
+            <div className={styles.icon}>
               <SiHtml5 
-              className={styles.icon}
+              className={styles.skill_icon}
               />
             </div>
           </li>
           <li className={styles.skill_item}>
-            <div>
+            <div className={styles.icon}>
               <SiCss3 
               className={styles.skill_icon}
               />
             </div>
           </li>
           <li className={styles.skill_item}>
-            <div>
+            <div className={styles.icon}>
               <SiJavascript
               className={styles.skill_icon}
               />
             </div>
           </li>
           <li className={styles.skill_item}>
-            <div>
+            <div className={styles.icon}>
               <SiReact 
               className={styles.skill_icon}
               />
@@ -41,58 +49,60 @@ export default function Skills() {
         </ul>
         <h1>Etc...</h1>
         <ul className={styles.skill_category}>
-        <li className={styles.skill_item}>
-            <div className={styles.skill_icon}>
-              <SiHtml5 
-              className={styles.icon}
-              />
-            </div>
-          </li>
+        
           <li className={styles.skill_item}>
             <div>
-              <SiCss3 
+              <SiPostcss 
               className={styles.skill_icon}
               />
             </div>
           </li>
           <li className={styles.skill_item}>
             <div>
-              <SiJavascript
+              <SiNetlify
               className={styles.skill_icon}
               />
             </div>
           </li>
           <li className={styles.skill_item}>
             <div>
-              <SiReact 
+              <SiGit 
               className={styles.skill_icon}
               />
             </div>
           </li>
-          <li className={styles.skill_item}>
-            <div className={styles.skill_icon}>
-              <SiHtml5 
-              className={styles.icon}
-              />
-            </div>
-          </li>
+          
           <li className={styles.skill_item}>
             <div>
-              <SiCss3 
+              <SiReactrouter 
               className={styles.skill_icon}
               />
             </div>
           </li>
           <li className={styles.skill_item}>
             <div>
-              <SiJavascript
+              <SiGithub
               className={styles.skill_icon}
               />
             </div>
           </li>
           <li className={styles.skill_item}>
             <div>
-              <SiReact 
+              <SiVisualstudiocode 
+              className={styles.skill_icon}
+              />
+            </div>
+          </li>
+          <li className={styles.skill_item}>
+            <div>
+              <SiFirebase 
+              className={styles.skill_icon}
+              />
+            </div>
+          </li>
+          <li className={styles.skill_item}>
+            <div>
+              <SiJira 
               className={styles.skill_icon}
               />
             </div>

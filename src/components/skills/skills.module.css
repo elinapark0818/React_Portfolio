@@ -1,29 +1,37 @@
+:root {
+  color: #3d5361;
+}
+
 .skills {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: "Gaegu";
+  background-color: bisque;
   margin: 1em;
-  background-color: #3d5361;
-  color: white;
   margin-top: 1em;
 }
 
 .skill_category {
   list-style: none;
   display: flex;
+  align-items: center;
   padding: 0;
   margin: 0;
 }
 
 .skill_item {
+  list-style: none;
+  display: flex;
+  align-items: center;
   margin: 1em;
 }
 
 .skill_icon {
   margin: 0;
   font-size: 5em;
+  transition: all 300ms ease;
 }
 
 .skill_icon:hover {
