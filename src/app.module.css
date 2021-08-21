@@ -2,3 +2,7 @@
   font-family: "Gaegu";
   src: url("./font/Gaegu.ttf");
 }
+
+.app {
+  margin-bottom: 5em;
+}

@@ -4,12 +4,10 @@
   align-items: center;
 }
 
-.gmail {
-  display: flex;
-  flex-direction: column;
+.icon {
   font-size: 3em;
 }
 
-.gmail:hover {
+.icon:hover {
   transform: scale(1.02);
 }

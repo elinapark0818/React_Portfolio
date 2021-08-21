@@ -9,7 +9,7 @@
   margin: 1em;
   background-color: #fff;
   color: #1aab8a;
-  margin-top: 1em;
+  margin-top: 5em;
 }
 
 .avatar {
@@ -45,13 +45,14 @@
   color: #1aab8a;
   border: none;
   position: relative;
-  height: 3em;
+  height: 2em;
   font-family: "Gaegu";
   font-size: 3em;
-  padding: 0 2em;
+  padding: 0;
   cursor: pointer;
   transition: 800ms ease all;
   outline: none;
+  margin-top: 1em;
 }
 
 .profile_btn:hover {

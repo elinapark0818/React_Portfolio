@@ -8,6 +8,7 @@
   color: white;
   font-family: "Gaegu";
   opacity: 0.8;
+  margin-top: 5em;
 }
 
 @keyframes typing {
@@ -23,7 +24,7 @@
 }
 
 .title {
-  color: black;
+  color: blackd;
   font-size: 3em;
   z-index: 1;
   width: 19em;

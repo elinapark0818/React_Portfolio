@@ -18,15 +18,14 @@ export default function App() {
     <header className={styles.header}>
       <Menu />
       <animated.div style={display}>
-      <Home />
+        <Home />
       </animated.div>
-      
     </header>
-    <div className={styles.main}>
+    <main className={styles.main}>
       <Profile />
       <Skills />
       <Projects />
-    </div>
+    </main>
     <footer className={styles.footer}>
       <ContactBtn />
       <Contact />/

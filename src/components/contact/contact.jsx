@@ -1,13 +1,12 @@
 import React from 'react';
 import styles from './contact.module.css';
 import { SiGmail } from "react-icons/si";
-import { SiGithub } from "react-icons/si";
 
 export default function Contact() {
   return (
     <div className={styles.container}>
       <div className={styles.gmail}>
-        <SiGmail />
+        <SiGmail  className={styles.icon}/>
       </div>
     </div>
   )
