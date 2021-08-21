@@ -2,31 +2,35 @@ import React from 'react';
 import styles from './app.module.css';
 import Home from './components/home/home';
 import Profile from './components/profile/profile';
-// import Projects from './components/projects/projects';
-// import Contact from './components/contact/contact';
-// import Menu from './components/menu/menu';
-// import Skills from './components/skills/skills';
 import { useSpring, animated } from 'react-spring';
 import Skills from './components/skills/skills';
-// import Star from './components/star/star';
+import ContactBtn from './components/contact/contact_btn';
+import Menu from './components/menu/menu';
+import Projects from './components/projects/projects';
+import Contact from './components/contact/contact';
 
-function App() {
+export default function App() {
   const display = useSpring({ 
-    to: { opacity: 1, marginTop: 0}, from: { opacity: 0, marginTop: -500 } })
+    to: { opacity: 1}, from: { opacity: 0 } })
 
   return (
   <div className={styles.app}>
-    <div className={styles.header}>
+    <header className={styles.header}>
+      <Menu />
       <animated.div style={display}>
-        <Home />
+      <Home />
       </animated.div>
-    </div>
+      <ContactBtn />
+    </header>
     <div className={styles.main}>
       <Profile />
       <Skills />
+      <Projects />
     </div>
+    <footer className={styles.footer}>
+      <Contact />/
+    </footer>
   </div>
   );
 }
 
-export default App;

@@ -1,5 +1,14 @@
 import React from 'react';
+import styles from './contact.module.css';
+import { SiGmail } from "react-icons/si";
+import { SiGithub } from "react-icons/si";
 
-const Contact = (props) => <h1>Contact</h1>
-
-export default Contact;
+export default function Contact() {
+  return (
+    <div className={styles.container}>
+      <div className={styles.gmail}>
+        <SiGmail />
+      </div>
+    </div>
+  )
+}

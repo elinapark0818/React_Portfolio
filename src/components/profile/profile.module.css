@@ -7,10 +7,9 @@
   font-size: 1em;
   font-family: "Gaegu";
   margin: 1em;
-  background-color: #3d5361;
-  color: white;
+  background-color: #fff;
+  color: #1aab8a;
   margin-top: 1em;
-  border: 1em double;
 }
 
 .avatar {
@@ -28,8 +27,56 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  margin-bottom: 1em;
 }
 .history {
   display: flex;
   flex-direction: column;
+}
+
+.profile_btn:before {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.profile_btn {
+  background-color: transparent;
+  color: #1aab8a;
+  border: none;
+  position: relative;
+  height: 3em;
+  font-family: "Gaegu";
+  font-size: 3em;
+  padding: 0 2em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+}
+
+.profile_btn:hover {
+  background: #fff;
+  color: #1aab8a;
+}
+.profile_btn:before,
+.profile_btn:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #1aab8a;
+  transition: 400ms ease all;
+}
+.profile_btn:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+.profile_btn:hover:before,
+.profile_btn:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
 }

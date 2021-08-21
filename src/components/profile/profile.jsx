@@ -4,10 +4,11 @@ import styles from './profile.module.css';
 const Profile = () => {
   return (
     <div className={styles.container}>
-      <h1>Profile</h1>
+      <button className={styles.profile_btn}>Profile</button>
+      
         <div className={styles.basic}>
           <div className={styles.profile}>
-            <h2>프 로 필</h2>
+            <h2>기 본</h2>
             <h3>이름 : 박 윤 정</h3>
             <h3>생년월일 : 1992.06.04</h3>
             <h3>지원분야 : Front-end developer</h3>

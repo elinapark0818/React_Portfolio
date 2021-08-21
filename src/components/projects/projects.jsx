@@ -1,5 +1,10 @@
 import React from 'react';
+import styles from './projects.module.css';
 
-const Projects = (props) => <h1>projects</h1>
-
-export default Projects;
+export default function Projects() {
+  return (
+    <div>
+      
+    </div>
+  )
+}

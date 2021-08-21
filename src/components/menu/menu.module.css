@@ -1,5 +1,5 @@
 .navbar {
-  background-color: black;
+  background-color: #1aab8a;
   color: white;
   width: 100%;
   height: 5em;
@@ -7,6 +7,10 @@
   justify-content: flex-end;
   align-items: center;
   font-family: "Gaegu";
+  position: fixed;
+  margin-bottom: 1em;
+  z-index: 1;
+  opacity: 0.9;
 }
 
 .navbar__menu {
@@ -16,14 +20,42 @@
   margin: 0;
 }
 
-.navbar__menu__item {
+.navbar__item {
   font-size: 2em;
   display: flex;
   margin-right: 1em;
   cursor: pointer;
 }
 
-.navbar__menu__item:hover {
-  transform: scale(1.002em);
-  color: yellow;
+.link {
+  text-decoration-line: none;
+  color: inherit;
+}
+
+.navbar__item:hover {
+  animation: jello-horizontal 0.9s both;
+}
+
+@keyframes jello-horizontal {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
 }
