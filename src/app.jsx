@@ -16,7 +16,6 @@ export default function App() {
   return (
   <div className={styles.app}>
     <header className={styles.header}>
-      <Menu />
       <animated.div style={display}>
         <Home />
       </animated.div>
@@ -29,7 +28,6 @@ export default function App() {
     <footer className={styles.footer}>
       <ContactBtn />
       <Contact />/
-      <p>2021 All right reserved</p>
     </footer>
   </div>
   );
