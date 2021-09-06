@@ -5,16 +5,17 @@ import Profile from './components/profile/profile';
 import { useSpring, animated } from 'react-spring';
 import Skills from './components/skills/skills';
 import ContactBtn from './components/contact_btn/contact_btn';
-import Menu from './components/menu/menu';
 import Projects from './components/projects/projects';
 import Contact from './components/contact/contact';
+import TopBtn from './components/topBtn/topBtn';
 
 export default function App() {
   const display = useSpring({ 
     to: { opacity: 1}, from: { opacity: 0 } })
 
   return (
-  <div className={styles.app}>
+    <div className={styles.app}>
+      <TopBtn/>
     <header className={styles.header}>
       <animated.div style={display}>
         <Home />
