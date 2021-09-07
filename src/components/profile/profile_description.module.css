@@ -1,0 +1,15 @@
+.basic {
+  display: flex;
+}
+
+.profile {
+  margin-right: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 1em;
+}
+.history {
+  display: flex;
+  flex-direction: column;
+}

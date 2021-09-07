@@ -4,34 +4,28 @@
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
+  width: 25em;
   font-size: 1em;
   font-family: "Gaegu";
   margin: 1em;
-  background-color: #fff;
-  color: #1aab8a;
-  margin-top: 5em;
+  margin-top: 1.5em;
+  background-color: lightpink;
+  color: white;
+  -webkit-box-shadow: 5px 5px 15px -3px pink;
+  box-shadow: 5px 5px 15px -3px pink;
+  border-radius: 5px;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
 }
 
 .avatar {
   display: flex;
   width: 20em;
-  margin-right: 1em;
-}
-
-.basic {
-  display: flex;
-}
-
-.profile {
-  margin-right: 1em;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  margin-bottom: 1em;
-}
-.history {
-  display: flex;
-  flex-direction: column;
 }
 
 .profile_btn:before {
@@ -42,22 +36,23 @@
 }
 .profile_btn {
   background-color: transparent;
-  color: #1aab8a;
+  color: white;
   border: none;
   position: relative;
   height: 2em;
   font-family: "Gaegu";
   font-size: 3em;
+  font-weight: bold;
   padding: 0;
   cursor: pointer;
   transition: 800ms ease all;
   outline: none;
-  margin-top: 1em;
+  margin: 0.2em;
 }
 
 .profile_btn:hover {
-  background: #fff;
-  color: #1aab8a;
+  background: lightpink;
+  color: white;
 }
 .profile_btn:before,
 .profile_btn:after {
@@ -67,7 +62,7 @@
   right: 0;
   height: 2px;
   width: 0;
-  background: #1aab8a;
+  background: white;
   transition: 400ms ease all;
 }
 .profile_btn:after {
