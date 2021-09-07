@@ -1,31 +1,35 @@
+.profile {
+  display: flex;
+  margin-top: 2em;
+  width: 100%;
+}
+
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   flex-direction: column;
-  width: 25em;
-  font-size: 1em;
+  width: 100%;
+  height: 30em;
+  font-size: 1.5em;
   font-family: "Gaegu";
   margin: 1em;
-  margin-top: 1.5em;
+
   background-color: lightpink;
   color: white;
   -webkit-box-shadow: 5px 5px 15px -3px pink;
   box-shadow: 5px 5px 15px -3px pink;
-  border-radius: 5px;
 }
 
 .image {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin-bottom: 1em;
+  margin-right: 25em;
 }
 
 .avatar {
   display: flex;
   width: 20em;
+  margin: 0;
 }
 
 .profile_btn:before {
@@ -41,13 +45,15 @@
   position: relative;
   height: 2em;
   font-family: "Gaegu";
-  font-size: 3em;
+  font-size: 2em;
   font-weight: bold;
   padding: 0;
   cursor: pointer;
   transition: 800ms ease all;
   outline: none;
-  margin: 0.2em;
+  margin: 0;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
 }
 
 .profile_btn:hover {
@@ -75,4 +81,28 @@
 .profile_btn:hover:after {
   width: 100%;
   transition: 800ms ease all;
+}
+
+.description {
+  font-size: 0.8em;
+  font-family: "Gaegu";
+  background-color: transparent;
+  color: white;
+  width: 30em;
+  margin-top: -26em;
+  margin-left: 33em;
+  padding: 0;
+  padding-left: 1.5em;
+}
+
+.etc {
+  font-size: 0.8em;
+  font-family: "Gaegu";
+  background-color: transparent;
+  color: white;
+  margin: 0;
+  margin-left: 25em;
+  margin-bottom: 5em;
+  padding: 0;
+  padding-left: 1.5em;
 }

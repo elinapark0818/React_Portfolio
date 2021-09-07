@@ -9,6 +9,7 @@ import Projects from './components/projects/projects';
 import Contact from './components/contact/contact';
 import TopBtn from './components/topBtn/topBtn';
 
+
 export default function App() {
   const display = useSpring({ 
     to: { opacity: 1}, from: { opacity: 0 } })

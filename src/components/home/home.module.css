@@ -7,7 +7,6 @@
   height: 30em;
   color: white;
   font-family: "Gaegu";
-  opacity: 0.8;
 }
 
 @keyframes typing {
@@ -23,7 +22,7 @@
 }
 
 .title {
-  color: blackd;
+  color: white;
   font-size: 3em;
   z-index: 1;
   width: 19em;
@@ -35,7 +34,6 @@
 
 .img {
   position: absolute;
-  opacity: 0.8;
   width: 100%;
   height: 80vh;
 }
