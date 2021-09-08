@@ -10,11 +10,14 @@ export default function About() {
           <div className={styles.title}>
           <button className={styles.about_btn}>About</button>
           </div>
-          <p className={styles.ps}>"평생 직업으로 개발을 택했습니다. <br/>
+          <div className={styles.ps}>
+          <p>" 제 평생 직업으로 개발을 택했습니다. <br/>
             결코 만만하게 생각하지 않았고, 주변 지인들의 도움과 <br/>
             절대 포기하지 않겠다는 굳은 다짐이 있었기에 가능했습니다. <br/>
             끊임없이 배움을 갈구하며 노력은 배신하지 않는다는 생각으로 <br/>
             한 걸음씩 꾸준히 나아가자고 하면 된다고 제 자신을 믿었습니다."</p>
+          </div>
+          
 
             <div className={styles.github}>
               <img src="./img/about_img/github_img.png" alt="github" />

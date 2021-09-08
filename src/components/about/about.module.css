@@ -1,6 +1,7 @@
 .container {
   width: 100%;
   font-size: 1.5em;
+  font-weight: bold;
   font-family: "Gaegu";
   margin: 1em;
   margin-top: 0;
@@ -73,6 +74,8 @@
 .ps {
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin: 1em;
 }
 
 .github {
