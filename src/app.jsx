@@ -8,6 +8,7 @@ import ContactBtn from './components/contact_btn/contact_btn';
 import Projects from './components/projects/projects';
 import Contact from './components/contact/contact';
 import TopBtn from './components/topBtn/topBtn';
+import About from './components/about/about';
 
 
 export default function App() {
@@ -24,6 +25,7 @@ export default function App() {
     </header>
     <main className={styles.main}>
       <Profile />
+      <About />
       <Skills />
       <Projects />
     </main>

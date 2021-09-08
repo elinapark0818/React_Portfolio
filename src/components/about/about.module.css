@@ -1,0 +1,141 @@
+.container {
+  width: 100%;
+  font-size: 1.5em;
+  font-family: "Gaegu";
+  margin: 1em;
+  margin-top: 0;
+  background-color: orange;
+  color: white;
+  -webkit-box-shadow: 5px 5px 15px -3px orange;
+  box-shadow: 5px 5px 15px -3px orange;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  display: flex;
+  width: 100%;
+}
+
+.about_btn:before {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.about_btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  position: relative;
+  height: 2em;
+  font-family: "Gaegu";
+  font-size: 2em;
+  font-weight: bold;
+  padding: 0;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+  margin: 0;
+  margin-top: 1.5em;
+}
+
+.about_btn:hover {
+  background: orange;
+  color: white;
+}
+.about_btn:before,
+.about_btn:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: white;
+  transition: 400ms ease all;
+}
+.about_btn:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+.about_btn:hover:before,
+.about_btn:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+.ps {
+  display: flex;
+  justify-content: center;
+}
+
+.github {
+  display: flex;
+  margin: 1em;
+  justify-content: center;
+}
+
+.github img {
+  width: 20em;
+}
+
+.github .description {
+  border: 1px solid white;
+  margin: 1em;
+  padding: 0.5em;
+}
+
+.solved {
+  display: flex;
+  margin: 1em;
+  justify-content: center;
+}
+
+.solved img {
+  width: 5em;
+  height: 4.9em;
+}
+
+.solved .description {
+  border: 1px solid white;
+  margin: 1em;
+  padding: 0.5em;
+}
+
+.cs50 {
+  display: flex;
+  margin: 1em;
+  justify-content: center;
+}
+
+.cs50 img {
+  width: 20em;
+}
+
+.cs50 .description {
+  border: 1px solid white;
+  margin: 1em;
+  padding: 0.5em;
+}
+
+.dreamcoding {
+  display: flex;
+  margin: 1em;
+  justify-content: center;
+}
+
+.dreamcoding img {
+  width: 30em;
+}
+
+.dreamcoding .description {
+  border: 1px solid white;
+  margin: 1em;
+  padding: 0.5em;
+}

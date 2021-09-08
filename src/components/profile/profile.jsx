@@ -6,7 +6,7 @@ const Profile = () => {
     <div className={styles.profile}>
 
       <div className={styles.container}>
-          <button className={styles.profile_btn}>프 로 필</button>
+          <button className={styles.profile_btn}>Profile</button>
 
         <div className={styles.image}>
           <img className={styles.avatar} 
