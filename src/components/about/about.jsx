@@ -38,7 +38,8 @@ export default function About() {
               <img src="./img/about_img/dreamcoding_img.png" alt="cs50" />
               <div className={styles.description}>
                 <p>드림코딩아카데미 강의를 통해 프론트엔드 개발자가 되기 위한 <br/> 
-                  기초를 다졌습니다. 배울수록 배울 것이 많아지고 욕심이 생겼습니다. <br/>
+                  기초를 다졌습니다. 배울수록 배울 것이 많아졌고 <br/>
+                  기반이 탄탄한 개발자가 되고 싶다는 욕심이 생겼습니다. <br/>
                   "Don't forget code your dream!" 제 꿈을 그려나가는데 <br/>
                   가장 큰 힘이 되었던 시간이었습니다.</p>
               </div>

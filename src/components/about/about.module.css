@@ -86,7 +86,9 @@
 }
 
 .github .description {
-  border: 1px solid white;
+  display: flex;
+  align-items: center;
+
   margin: 1em;
   padding: 0.5em;
 }
@@ -98,12 +100,13 @@
 }
 
 .solved img {
-  width: 5em;
-  height: 4.9em;
+  width: 10em;
 }
 
 .solved .description {
-  border: 1px solid white;
+  display: flex;
+  align-items: center;
+
   margin: 1em;
   padding: 0.5em;
 }
@@ -115,11 +118,13 @@
 }
 
 .cs50 img {
-  width: 20em;
+  width: 22em;
 }
 
 .cs50 .description {
-  border: 1px solid white;
+  display: flex;
+  align-items: center;
+
   margin: 1em;
   padding: 0.5em;
 }
@@ -131,11 +136,13 @@
 }
 
 .dreamcoding img {
-  width: 30em;
+  width: 25em;
 }
 
 .dreamcoding .description {
-  border: 1px solid white;
+  display: flex;
+  align-items: center;
+
   margin: 1em;
   padding: 0.5em;
 }
