@@ -3,6 +3,7 @@ import styles from './about.module.css';
 
 
 export default function About() {
+  
   return (
       <div className={styles.about}>
         
@@ -11,7 +12,7 @@ export default function About() {
           <button className={styles.about_btn}>About</button>
           </div>
           <div className={styles.ps}>
-          <p>" 제 평생 직업으로 개발을 택했습니다. <br/>
+          <p>" 제 평생 직업으로 개발을 선택했습니다. <br/>
             결코 만만하게 생각하지 않았고, 주변 지인들의 도움과 <br/>
             절대 포기하지 않겠다는 굳은 다짐이 있었기에 가능했습니다. <br/>
             끊임없이 배움을 갈구하며 노력은 배신하지 않는다는 생각으로 <br/>
@@ -22,10 +23,10 @@ export default function About() {
             <div className={styles.github}>
               <img src="./img/about_img/github_img.png" alt="github" />
               <div className={styles.description}>
-                <p> 매일 공부하는 내용을 기록하고 있습니다.<br/>
-                  하나씩 색칠되어가는 잔디를 보면서 <br/>
-                  하루를 되짚어보고, 항시 개발공부를 잊지 않으면서 <br/>
-                  개발자가 되어 프로그래밍하는 희망찬 내일을 기다리고 있습니다.</p>
+                <p> 매일같이 공부하는 내용을 기록하고 있습니다.<br/>
+                  하나하나 칠해져가는 잔디를 보면서 <br/>
+                  하루를 되짚어보고, 매순간 성장해나가고자 노력하며 <br/>
+                  "나는 프론트엔드 개발자가 될거야!"라고 다짐합니다.</p>
               </div>
             </div>
             
@@ -40,10 +41,11 @@ export default function About() {
             <div className={styles.dreamcoding}>
               <img src="./img/about_img/dreamcoding_img.png" alt="cs50" />
               <div className={styles.description}>
-                <p>드림코딩아카데미 강의를 통해 프론트엔드 개발자가 되기 위한 <br/> 
-                  기초를 다졌습니다. 배울수록 배울 것이 많아졌고 <br/>
+                <p>드림코딩아카데미 강의를 통해 필요한 기초지식을<br/> 
+                  배웠습니다. 배울수록 배울 것이 많아졌고 <br/>
                   기반이 탄탄한 개발자가 되고 싶다는 욕심이 생겼습니다. <br/>
-                  "Don't forget code your dream!" 제 꿈을 그려나가는데 <br/>
+                  "Don't forget code your dream!" <br/>
+                  제 꿈을 그려나가는데 <br/>
                   가장 큰 힘이 되었던 시간이었습니다.</p>
               </div>
             </div>

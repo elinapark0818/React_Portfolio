@@ -1,7 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react/cjs/react.development';
 import './topBtn.css';
-import { BsChevronUp } from "react-icons/bs";
 
 export default function TopBtn() {
   const [ScrollY, setScrollY] = useState(0);
@@ -41,9 +40,7 @@ export default function TopBtn() {
         <button 
           className={BtnStatus ? "topBtn active" : "topBtn"}
           onClick={handleTop}
-        >
-          {/* <BsChevronUp/> */}
-          TOP
+        >TOP
         </button>
       </div>
     </div>

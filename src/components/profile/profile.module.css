@@ -1,7 +1,7 @@
 .profile {
   display: flex;
-  margin-top: 2em;
   width: 100%;
+  font-family: "Gaegu";
 }
 
 .container {
@@ -14,7 +14,7 @@
   font-size: 1.5em;
   font-family: "Gaegu";
   margin: 1em;
-
+  margin-top: 2.5em;
   background-color: lightpink;
   color: white;
   -webkit-box-shadow: 5px 5px 15px -3px pink;
@@ -51,8 +51,6 @@
   cursor: pointer;
   transition: 800ms ease all;
   outline: none;
-  margin: 0;
-  margin-top: 1.5em;
   margin-bottom: 1em;
 }
 
@@ -89,20 +87,7 @@
   background-color: transparent;
   color: white;
   width: 30em;
-  margin-top: -26em;
-  margin-left: 33em;
+  margin-top: -25em;
+  margin-left: 30em;
   padding: 0;
-  padding-left: 1.5em;
-}
-
-.etc {
-  font-size: 0.8em;
-  font-family: "Gaegu";
-  background-color: transparent;
-  color: white;
-  margin: 0;
-  margin-left: 25em;
-  margin-bottom: 5em;
-  padding: 0;
-  padding-left: 1.5em;
 }
