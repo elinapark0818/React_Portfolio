@@ -5,10 +5,10 @@
   font-family: "Gaegu";
   margin: 1em;
   margin-top: 0;
-  background-color: black;
+  background-color: pink;
   color: white;
-  -webkit-box-shadow: 5px 5px 15px -3px black;
-  box-shadow: 5px 5px 15px -3px black;
+  -webkit-box-shadow: 5px 5px 15px -3px pink;
+  box-shadow: 5px 5px 15px -3px pink;
 }
 
 .title {
@@ -44,7 +44,7 @@
 }
 
 .skills_btn:hover {
-  background: black;
+  background: pink;
   color: white;
 }
 .skills_btn:before,
@@ -113,16 +113,19 @@
 .skillset {
   display: flex;
   flex-direction: column;
-  background-color: lightgreen;
-  color: white;
-  margin: 5em;
+  background-color: palevioletred;
+  margin: 10em;
   margin-top: 1em;
+  margin-bottom: 2em;
   padding: 2em;
+  padding-left: 1em;
 }
 
 .setting {
   display: flex;
   flex-direction: column;
+  margin: 1em;
+  margin-left: 1em;
 }
 
 .htmlBar {
@@ -134,7 +137,7 @@
 .htmlValue {
   width: 95%;
   height: 5px;
-  background-color: red;
+  background-color: #c94f7c;
 }
 .cssBar {
   width: 100%;
@@ -145,7 +148,7 @@
 .cssValue {
   width: 85%;
   height: 5px;
-  background-color: red;
+  background-color: #c94f7c;
 }
 .jsBar {
   width: 100%;
@@ -156,7 +159,7 @@
 .jsValue {
   width: 90%;
   height: 5px;
-  background-color: red;
+  background-color: #c94f7c;
 }
 .reactBar {
   width: 100%;
@@ -167,7 +170,7 @@
 .reactValue {
   width: 80%;
   height: 5px;
-  background-color: red;
+  background-color: #c94f7c;
 }
 
 /*  */

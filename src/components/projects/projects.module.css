@@ -5,10 +5,10 @@
   font-family: "Gaegu";
   margin: 1em;
   margin-top: 0;
-  background-color: greenyellow;
+  background-color: pink;
   color: white;
-  -webkit-box-shadow: 5px 5px 15px -3px greenyellow;
-  box-shadow: 5px 5px 15px -3px greenyellow;
+  -webkit-box-shadow: 5px 5px 15px -3px pink;
+  box-shadow: 5px 5px 15px -3px pink;
 }
 
 .title {
@@ -45,7 +45,7 @@
 }
 
 .projects_btn:hover {
-  background: greenyellow;
+  background: pink;
   color: white;
 }
 .projects_btn:before,

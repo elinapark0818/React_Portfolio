@@ -32,6 +32,7 @@ export default function App() {
     <footer className={styles.footer}>
       <ContactBtn />
       <Contact />/
+      
     </footer>
   </div>
   );

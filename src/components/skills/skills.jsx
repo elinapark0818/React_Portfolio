@@ -29,7 +29,7 @@ export default function Skills() {
     loop: true,
     from: { opacity: 0.5, color: "blue" },
     to: [{ opacity: 1, color: '#a1f4f7' },
-    { opacity: 0.5, color: 'rgb(14,26,19)' },
+    { opacity: 0.5, color: 'rgb(14,26,19)'},
       ],
   })
 
@@ -76,7 +76,7 @@ export default function Skills() {
               <div className={styles.graph}>
                     <div className={styles.setting}>
                         <span>HTML5</span>
-                        <span>100%</span>
+                        
                     </div>
                     <div className={styles.htmlBar}>
                         <div className={styles.htmlValue}></div>
@@ -86,7 +86,7 @@ export default function Skills() {
                 <div className={styles.graph}>
                     <div className={styles.setting}>
                         <span>CSS3</span>
-                        <span>85%</span>
+                        
                     </div>
                     <div className={styles.cssBar}>
                         <div className={styles.cssValue}>
@@ -97,7 +97,7 @@ export default function Skills() {
                 <div className={styles.graph}>
                     <div className={styles.setting}>
                         <span>JavaScript</span>
-                        <span>90%</span>
+                        
                     </div>
                     <div className={styles.jsBar}>
                         <div className={styles.jsValue} >
@@ -108,7 +108,7 @@ export default function Skills() {
                 <div className={styles.graph}>
                     <div className={styles.setting}>
                         <span>React</span>
-                        <span>80%</span>
+                        
                     </div>
                     <div className={styles.reactBar}>
                         <div className={styles.reactValue}>

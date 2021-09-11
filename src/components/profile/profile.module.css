@@ -15,7 +15,7 @@
   font-family: "Gaegu";
   margin: 1em;
   margin-top: 2.5em;
-  background-color: lightpink;
+  background-color: pink;
   color: white;
   -webkit-box-shadow: 5px 5px 15px -3px pink;
   box-shadow: 5px 5px 15px -3px pink;
@@ -55,7 +55,7 @@
 }
 
 .profile_btn:hover {
-  background: lightpink;
+  background: pink;
   color: white;
 }
 .profile_btn:before,
