@@ -57,51 +57,99 @@ export default function Skills() {
                 <ul className={styles.skill_category}>
                   <li className={styles.skill_item}>
                     <animated.div style={colorful1}>
-                      <SiHtml5 className={styles.icon}/>
+                      <SiHtml5 className={styles.skill_icon}/>
                       </animated.div>
                       <p className={styles.description}>Html5</p>
                   </li>
                   <li className={styles.skill_item}>
                     <animated.div style={colorful2}>
-                      <SiCss3 className={styles.icon}/>
+                      <SiCss3 className={styles.skill_icon}/>
                       </animated.div>
 
                       <p className={styles.description}>CSS3</p>
                   </li>
                   <li className={styles.skill_item}>
                     <animated.div style={colorful3}>
-                      <SiJavascript className={styles.icon}/>
+                      <SiJavascript className={styles.skill_icon}/>
                       </animated.div>
 
                       <p className={styles.description}>JavaScript</p>
                   </li>
                   <li className={styles.skill_item}>
                     <animated.div style={colorful4}>
-                    <SiReact className={styles.icon} />
+                    <SiReact className={styles.skill_icon} />
                       </animated.div>
                       <p className={styles.description}>React</p>
                   </li>
                 </ul>
               </div>
 
+              <div className={styles.skillset}>
+              <div className={styles.graph}>
+                    <div className={styles.setting}>
+                        <span>HTML5</span>
+                        <span>100%</span>
+                    </div>
+                    <div className={styles.htmlBar}>
+                        <div className={styles.htmlValue}></div>
+                    </div>
+                </div>
+
+                <div className={styles.graph}>
+                    <div className={styles.setting}>
+                        <span>CSS3</span>
+                        <span>85%</span>
+                    </div>
+                    <div className={styles.cssBar}>
+                        <div className={styles.cssValue}>
+                        </div>
+                    </div>
+                </div>
+
+                <div className={styles.graph}>
+                    <div className={styles.setting}>
+                        <span>JavaScript</span>
+                        <span>90%</span>
+                    </div>
+                    <div className={styles.jsBar}>
+                        <div className={styles.jsValue} >
+                        </div>
+                    </div>
+                </div>
+
+                <div className={styles.graph}>
+                    <div className={styles.setting}>
+                        <span>React</span>
+                        <span>80%</span>
+                    </div>
+                    <div className={styles.reactBar}>
+                        <div className={styles.reactValue}>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
               <div className={styles.title}>
                 <h2>Etc</h2>
               </div>
 
-
         <div className={styles.etc1}>
           <ul className={styles.etc_category1}>
             <li className={styles.etc_item}>
-              <SiPostcss/>            
+              <SiPostcss className={styles.etc_icon} />
+              <p className={styles.description}>PostCSS</p>
             </li>
             <li className={styles.etc_item}>
-              <SiNetlify/>
+              <SiNetlify className={styles.etc_icon} />
+              <p className={styles.description}>Netlify</p>
             </li>
             <li className={styles.etc_item}>
-              <SiGit/>
+              <SiGit className={styles.etc_icon} />
+              <p className={styles.description}>Git</p>
             </li>
             <li className={styles.etc_item}>
-              <SiReactrouter/>
+              <SiReactrouter className={styles.etc_icon} />
+              <p className={styles.description}>Router</p>
             </li>
           </ul>
           </div>
@@ -109,16 +157,20 @@ export default function Skills() {
         <div className={styles.etc2}>  
           <ul className={styles.etc_category2}>
             <li className={styles.etc_item}>
-              <SiGithub/>
+              <SiGithub className={styles.etc_icon} />
+              <p className={styles.description}>Github</p>
             </li>
             <li className={styles.etc_item}>
-              <SiVisualstudiocode/>
+              <SiVisualstudiocode className={styles.etc_icon} />
+              <p className={styles.description}>VScode</p>
             </li>
             <li className={styles.etc_item}>
-              <SiFirebase/>              
+              <SiFirebase className={styles.etc_icon} />
+              <p className={styles.description}>Firebase</p>           
             </li>
             <li className={styles.etc_item}>
-              <SiJira/>              
+              <SiJira className={styles.etc_icon} />    
+              <p className={styles.description}>Jira</p>          
             </li>
           </ul>
         </div>

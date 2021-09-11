@@ -95,8 +95,12 @@
   transform: scale(1.05);
 }
 
-.icon {
+.skill_icon {
   font-size: 4em;
+}
+
+.etc_icon {
+  font-size: 2em;
 }
 
 .description {
@@ -106,17 +110,78 @@
 
 /*  */
 
+.skillset {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgreen;
+  color: white;
+  margin: 5em;
+  margin-top: 1em;
+  padding: 2em;
+}
+
+.setting {
+  display: flex;
+  flex-direction: column;
+}
+
+.htmlBar {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+}
+
+.htmlValue {
+  width: 95%;
+  height: 5px;
+  background-color: red;
+}
+.cssBar {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+}
+
+.cssValue {
+  width: 85%;
+  height: 5px;
+  background-color: red;
+}
+.jsBar {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+}
+
+.jsValue {
+  width: 90%;
+  height: 5px;
+  background-color: red;
+}
+.reactBar {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+}
+
+.reactValue {
+  width: 80%;
+  height: 5px;
+  background-color: red;
+}
+
+/*  */
 .etc1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  font-size: 2em;
+  font-size: 1em;
 }
 .etc2 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .etc_category1 {
@@ -136,5 +201,7 @@
 .etc_item {
   list-style: none;
   display: flex;
+  align-items: center;
+  flex-direction: column;
   margin: 1em;
 }
