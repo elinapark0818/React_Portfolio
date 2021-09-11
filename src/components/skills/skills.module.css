@@ -5,10 +5,10 @@
   font-family: "Gaegu";
   margin: 1em;
   margin-top: 0;
-  background-color: blueviolet;
+  background-color: black;
   color: white;
-  -webkit-box-shadow: 5px 5px 15px -3px blueviolet;
-  box-shadow: 5px 5px 15px -3px blueviolet;
+  -webkit-box-shadow: 5px 5px 15px -3px black;
+  box-shadow: 5px 5px 15px -3px black;
 }
 
 .title {
@@ -44,7 +44,7 @@
 }
 
 .skills_btn:hover {
-  background: blueviolet;
+  background: black;
   color: white;
 }
 .skills_btn:before,

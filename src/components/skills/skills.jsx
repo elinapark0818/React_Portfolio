@@ -17,32 +17,20 @@ import { SiJira } from "react-icons/si";
 export default function Skills() {
 
   const colorful1 = useSpring({
-    loop: true,
-    to: [{ opacity: 1, color: '#eb9550' },
-    { opacity: 0.5, color: 'rgb(235, 73, 23)' },
-      ],
-    from: { opacity: 0.5, color: "red" },
+    color: "red",
   })
   const colorful2 = useSpring({
-    loop: true,
-    to: [{ opacity: 1, color: '#2542e6' },
-    { opacity: 0.5, color: 'rgb(23, 133, 235)' },
-      ],
-    from: { opacity: 0.5, color: "skyblue" },
+    color: "blue"
   })
   const colorful3 = useSpring({
-    loop: true,
-    to: [{ opacity: 1, color: '#f5db33' },
-    { opacity: 0.5, color: 'rgb(242, 239, 24)' },
-      ],
-    from: { opacity: 0.5, color: "yellow" },
+    color: "gold",
   })
   const colorful4 = useSpring({
     loop: true,
+    from: { opacity: 0.5, color: "blue" },
     to: [{ opacity: 1, color: '#a1f4f7' },
     { opacity: 0.5, color: 'rgb(14,26,19)' },
       ],
-    from: { opacity: 0.5, color: "blue" },
   })
 
   return (
