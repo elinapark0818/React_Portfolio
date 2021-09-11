@@ -30,7 +30,6 @@ export default function App() {
       <Projects />
     </main>
     <footer className={styles.footer}>
-      <ContactBtn />
       <Contact />/
       
     </footer>

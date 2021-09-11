@@ -8,6 +8,7 @@ export default function Projects() {
           <div className={styles.title}>
           <button className={styles.projects_btn}>Projects</button>
           </div>
+            
         </div>
     </div>
   )
