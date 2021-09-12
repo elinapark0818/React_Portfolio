@@ -30,7 +30,7 @@ export default function App() {
       <Projects />
     </main>
     <footer className={styles.footer}>
-      <Contact />/
+      <Contact />
       
     </footer>
   </div>
