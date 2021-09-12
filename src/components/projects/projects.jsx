@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './projects.module.css';
+import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 
 export default function Projects() {
   return (
@@ -25,8 +26,71 @@ export default function Projects() {
             datatype="MiniGame">
               Mini-games<span className={styles.category_count}>3</span>
             </button>
-
           </header>
+          
+          <main className={styles.project_box}>
+            
+            <div className={styles.project}>
+              <img 
+                src="" 
+                alt="" 
+                className={styles.project_img}
+                />
+                <div className={styles.project_description}>
+                  <h3>To do list</h3>
+                  <span>Html5, CSS3, Javascript</span>
+                </div>
+              
+            </div>
+            
+            <div className={styles.project}>
+              <img 
+                src="" 
+                alt="" 
+                className={styles.project_img}
+                />
+                <div className={styles.project_description}>
+                  <h3>To do list</h3>
+                  <span>Html5, CSS3, Javascript</span>
+                </div>
+            </div>
+            
+            <div className={styles.project}>
+              <img 
+                src="" 
+                alt="" 
+                className={styles.project_img}
+                />
+                <div className={styles.project_description}>
+                  <h3>To do list</h3>
+                  <span>Html5, CSS3, Javascript</span>
+                </div>
+            </div>
+            
+            <div className={styles.project}>
+              <img 
+                src="" 
+                alt="" 
+                className={styles.project_img}
+                />
+                <div className={styles.project_description}>
+                  <h3>To do list</h3>
+                  <span>Html5, CSS3, Javascript</span>
+                </div>
+            </div>
+            
+            <div className={styles.project}>
+              <img 
+                src="" 
+                alt="" 
+                className={styles.project_img}
+                />
+                <div className={styles.project_description}>
+                  <h3>To do list</h3>
+                  <span>Html5, CSS3, Javascript</span>
+                </div>
+            </div>
+          </main>
       </div>
     </div>
   )
