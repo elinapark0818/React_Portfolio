@@ -7,6 +7,9 @@ export default function Contact() {
   return (
     <div className={styles.contact}>
       <div className={styles.container}>
+        <div className={styles.title}>
+          <button className={styles.contact_btn}>Contact</button>
+          </div>
         
           <div className={styles.gmail}>
             <SiGmail  className={styles.icon}/>

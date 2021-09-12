@@ -19,8 +19,10 @@ const Profile = () => {
   return (
     <div className={styles.profile}>
       <div className={styles.container}>
+        <div className={styles.title}>
           <button className={styles.profile_btn}>Profile</button>
-      
+          </div>
+
           <animated.div style={toTop}>
             <div className={styles.image}>
               <img className={styles.avatar} 
@@ -46,13 +48,9 @@ const Profile = () => {
               멋있는 인생을 사는 것이 최종 목표입니다."</h3>
             </div>
           </animated.div>
-
-            
-        
+          </div>
       </div>
-    </div>
-    
-    
+      
   )
 }
 

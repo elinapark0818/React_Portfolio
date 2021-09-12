@@ -73,6 +73,7 @@
 
 .ps {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin: 1em;
@@ -80,12 +81,16 @@
 
 .github {
   display: flex;
+  flex-wrap: wrap;
   margin: 1em;
   justify-content: center;
 }
 
 .github img {
   width: 20em;
+  height: 10em;
+  line-height: 10em;
+  max-width: 100%;
 }
 
 .github .description {
@@ -98,48 +103,58 @@
 
 .solved {
   display: flex;
+  flex-wrap: wrap;
   margin: 1em;
   justify-content: center;
 }
 
 .solved img {
-  width: 10em;
+  width: 5em;
+  height: 5em;
+  line-height: 5em;
+  max-width: 100%;
 }
 
 .solved .description {
   display: flex;
   align-items: center;
-
   margin: 1em;
   padding: 0.5em;
 }
 
 .cs50 {
   display: flex;
+  flex-wrap: wrap;
   margin: 1em;
   justify-content: center;
 }
 
 .cs50 img {
-  width: 22em;
+  width: 20em;
+  height: 15em;
+  line-height: 15em;
+  max-width: 100%;
 }
 
 .cs50 .description {
   display: flex;
   align-items: center;
-
   margin: 1em;
   padding: 0.5em;
 }
 
 .dreamcoding {
   display: flex;
+  flex-wrap: wrap;
   margin: 1em;
   justify-content: center;
 }
 
 .dreamcoding img {
-  width: 25em;
+  width: 20em;
+  height: 10em;
+  line-height: 10em;
+  max-width: 100%;
 }
 
 .dreamcoding .description {

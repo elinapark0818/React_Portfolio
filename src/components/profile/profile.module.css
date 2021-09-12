@@ -21,9 +21,15 @@
   box-shadow: 5px 5px 15px -3px pink;
 }
 
+.title {
+  display: flex;
+  justify-content: center;
+}
+
 .image {
   display: flex;
   margin-right: 25em;
+  max-width: 100%;
 }
 
 .avatar {

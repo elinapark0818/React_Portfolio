@@ -14,7 +14,7 @@ export default function Projects() {
             <button 
             className={styles.category_btn}
             datatype="*">
-              All <span className={styles.category_count}>7</span>
+              All <span className={styles.category_count}>5</span>
             </button>
             <button 
             className={styles.category_btn}
@@ -24,7 +24,7 @@ export default function Projects() {
             <button 
             className={styles.category_btn}
             datatype="MiniGame">
-              Mini-games<span className={styles.category_count}>3</span>
+              Mini-games<span className={styles.category_count}>1</span>
             </button>
           </header>
           
@@ -32,8 +32,8 @@ export default function Projects() {
             
             <div className={styles.project}>
               <img 
-                src="" 
-                alt="" 
+                src="./img/project_img/todo.png" 
+                alt="TodoList" 
                 className={styles.project_img}
                 />
                 <div className={styles.project_description}>
@@ -45,48 +45,48 @@ export default function Projects() {
             
             <div className={styles.project}>
               <img 
-                src="" 
-                alt="" 
+                src="./img/project_img/habit-tracker.png" 
+                alt="Habit-tracker" 
                 className={styles.project_img}
                 />
                 <div className={styles.project_description}>
-                  <h3>To do list</h3>
+                  <h3>Habit-tracker</h3>
+                  <span>Html5, CSS3, React</span>
+                </div>
+            </div>
+            
+            <div className={styles.project}>
+              <img 
+                src="./img/project_img/portfolio.png" 
+                alt="JavaScript portfolio" 
+                className={styles.project_img}
+                />
+                <div className={styles.project_description}>
+                  <h3>JavaScript portfolio</h3>
                   <span>Html5, CSS3, Javascript</span>
                 </div>
             </div>
             
             <div className={styles.project}>
               <img 
-                src="" 
-                alt="" 
+                src="./img/project_img/coordinates.png" 
+                alt="Realtime coordinates" 
                 className={styles.project_img}
                 />
                 <div className={styles.project_description}>
-                  <h3>To do list</h3>
+                  <h3>Realtime coordinates</h3>
                   <span>Html5, CSS3, Javascript</span>
                 </div>
             </div>
             
             <div className={styles.project}>
               <img 
-                src="" 
-                alt="" 
+                src="./img/project_img/carrot.png" 
+                alt="minigame" 
                 className={styles.project_img}
                 />
                 <div className={styles.project_description}>
-                  <h3>To do list</h3>
-                  <span>Html5, CSS3, Javascript</span>
-                </div>
-            </div>
-            
-            <div className={styles.project}>
-              <img 
-                src="" 
-                alt="" 
-                className={styles.project_img}
-                />
-                <div className={styles.project_description}>
-                  <h3>To do list</h3>
+                  <h3>Pick carrot game</h3>
                   <span>Html5, CSS3, Javascript</span>
                 </div>
             </div>
