@@ -87,9 +87,3 @@
 .icon:hover {
   transform: scale(1.02);
 }
-
-.email,
-.adress {
-  font-size: 1em;
-  margin-left: 1em;
-}
