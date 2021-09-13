@@ -118,7 +118,7 @@ export default function Skills() {
               </div>
 
               <div className={styles.title}>
-                <h2>Etc</h2>
+                <h2>Tool</h2>
               </div>
 
         <div className={styles.etc1}>
