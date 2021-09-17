@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  font-size: 1.5em;
+  font-family: "Gaegu";
+  margin: 1em;
+}
+
+.wrap {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  padding: 0;
+}
+
+.menu {
+  position: fixed;
+  cursor: pointer;
+  background-color: white;
+  color: pink;
+  opacity: 0;
+  font-weight: bold;
+}
+
+.menu.active {
+  z-index: 10;
+  opacity: 1;
+}
+
+.menu:hover,
+.menu:focus,
+.menu:active {
+  outline: 0 none;
+}

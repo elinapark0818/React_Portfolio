@@ -9,6 +9,7 @@ import Projects from './components/projects/projects';
 import Contact from './components/contact/contact';
 import TopBtn from './components/topBtn/topBtn';
 import About from './components/about/about';
+import Menu from './components/menu/menu';
 
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
 
   return (
     <div className={styles.app}>
+      <Menu/>
       <TopBtn/>
     <header className={styles.header}>
       <animated.div style={display}>
