@@ -3,7 +3,7 @@ import './navbar.css';
 import { FcMenu } from "react-icons/fc";
 
 export default function Navbar() {
-  const [toggleMenu, setToggleMenu] = useState(false)
+  const [toggleMenu, setToggleMenu] = useState(true)
   const [screenWidth, setScreenWidth] = useState(window.innerWidth)
 
 
@@ -27,7 +27,7 @@ export default function Navbar() {
   
   return (
     <nav>
-      {(toggleMenu || screenWidth > 500) && (
+      {(toggleMenu || screenWidth > 1000) && (
         <ul className="list">
           <li className="items">Home</li>
           <li className="items">Profile</li>
@@ -41,7 +41,8 @@ export default function Navbar() {
       <button 
       className="btn"
       onClick={toggleNav}>
-        <FcMenu/>
+        <FcMenu
+        className="btn"/>
       </button>
     </nav>  
   )
