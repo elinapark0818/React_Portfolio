@@ -5,7 +5,8 @@
   font-family: "Gaegu";
   margin: 1em;
   margin-top: 0;
-  background-color: pink;
+  background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
+
   color: white;
   -webkit-box-shadow: 5px 5px 15px -3px pink;
   box-shadow: 5px 5px 15px -3px pink;
@@ -40,7 +41,7 @@
 }
 
 .contact_btn:hover {
-  background: pink;
+  background: transparent;
   color: white;
 }
 .contact_btn:before,

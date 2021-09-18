@@ -26,6 +26,7 @@ export default function Navbar() {
   }, [])
   
   return (
+    <div className="container">
     <nav>
       {(toggleMenu || screenWidth > 1000) && (
         <ul className="list">
@@ -45,5 +46,6 @@ export default function Navbar() {
         className="btn"/>
       </button>
     </nav>  
+    </div>
   )
 }
