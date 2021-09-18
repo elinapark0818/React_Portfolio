@@ -9,7 +9,7 @@ import Projects from './components/projects/projects';
 import Contact from './components/contact/contact';
 import TopBtn from './components/topBtn/topBtn';
 import About from './components/about/about';
-import Menu from './components/menu/menu';
+import Navbar from './components/menu/navbar';
 
 
 export default function App() {
@@ -18,7 +18,7 @@ export default function App() {
 
   return (
     <div className={styles.app}>
-      <Menu/>
+      <Navbar />
       <TopBtn/>
     <header className={styles.header}>
       <animated.div style={display}>
