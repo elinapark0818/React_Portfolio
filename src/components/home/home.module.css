@@ -40,3 +40,10 @@
   -webkit-box-shadow: 5px 5px 15px -3px white;
   box-shadow: 5px 5px 15px -3px white;
 }
+
+@media screen and (max-width: 770px) {
+  .container {
+    max-width: 100%;
+    font-size: 0.6em;
+  }
+}
