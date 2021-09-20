@@ -8,7 +8,7 @@ import Projects from './components/projects/projects';
 import Contact from './components/contact/contact';
 import TopBtn from './components/topBtn/topBtn';
 import About from './components/about/about';
-import Navbar from './components/menu/navbar';
+import Navbar from './components/navbar/navbar';
 import { ThemeProvider } from 'styled-components';
 import theme from "./style/theme";
 

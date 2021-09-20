@@ -1,39 +1,32 @@
-import React, { useRef } from 'react'
-import { useState } from 'react/cjs/react.development';
-import Skills from '../skills/skills';
+import React, { useRef, useState } from "react";
 
-export default function Test() {
+export default function App() {
+  return (
+    <div className="App">
+      <div style={{ height: "10000px" }} />
+      <MyButton>button 1</MyButton>
+      <MyButton>button 2</MyButton>
+      <MyButton>button 3</MyButton>
+      <div style={{ height: "10000px" }} />
+    </div>
+  );
+}
 
-  const tabRef = useRef([]);
+const MyButton = props => {
+  const buttonRef = useRef();
 
-  const [currentTab, setCurrentTab] = useState();
-  
-  {TABDATA.map((data, index) => (
-    <Tab
-    key={index}
-    onclick={() => {
-      tabRef.current[index].scrollIntoView({
-        behavior: 'smooth', block: 'start',
-      });
-      setCurrentTab(tabRef.current[index]);
-    }}
-    selected={tabRef.current[index] === currentTab}
-    >
-      {data}
-    </Tab>
-  ))}
+  const handleScroll = () => {
+    window.scrollTo({
+      behavior: "smooth",
+      top: buttonRef.current.offsetTop
+    });
+  };
 
   return (
-    <>
-
-    <h1 ref={el => (tabRef.current[0] = el)}>첫 번째</h1>
-    <button onClick={() => {tabRef.current.focus()}}/>
-    
-    <h1 ref={el => (tabRef.current[1] = el)}>두 번째</h1>
-    <button onClick={() => {tabRef.current.focus()}}/>
-
-    <h1 ref={el => (tabRef.current[2] = el)}>세 번째</h1>
-    <button onClick={() => {tabRef.current.focus()}}/>
-    </>
-  )
-}
+    <div>
+      <button ref={buttonRef} onClick={handleScroll}>
+        {props.children}
+      </button>
+    </div>
+  );
+};

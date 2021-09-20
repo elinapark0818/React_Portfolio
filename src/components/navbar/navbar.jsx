@@ -1,7 +1,13 @@
-import React, {useState, useEffect} from "react";
+import React, {useState, useEffect, useRef} from "react";
 import './navbar.css';
 import { FcMenu } from "react-icons/fc";
-import { useRef } from 'react/cjs/react.development';
+
+import Home from './components/home/home';
+import About from './components/about/about';
+import Profile from './components/profile/profile';
+import Skills from './components/skills/skills';
+import Projects from './components/projects/projects';
+import Contact from './components/contact/contact';
 
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(true)
