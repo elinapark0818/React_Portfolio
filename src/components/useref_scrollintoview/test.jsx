@@ -1,6 +1,6 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 
-export default function App() {
+export default function Test() {
   return (
     <div className="App">
       <div style={{ height: "10000px" }} />

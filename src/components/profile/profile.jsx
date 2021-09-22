@@ -1,20 +1,9 @@
 import React from 'react';
-import { useState, useEffect } from 'react/cjs/react.development';
 import styles from './profile.module.css';
-import { useSpring, animated } from 'react-spring';
+
 
 const Profile = () => {
     
-  const toTop = useSpring({
-    from: { y: 100, opacity: 0 },
-    to: { y: 0, opacity: 1 },
-    delay: 1000
-  })
-  const toTop2 = useSpring({
-    from: { y: 100, opacity: 0 },
-    to: { y: 0, opacity: 1 },
-    delay: 2000
-  })
 
   return (
     <div className={styles.profile}>

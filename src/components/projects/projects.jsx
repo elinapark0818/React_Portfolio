@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './projects.module.css';
-import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 
 export default function Projects() {
   return (

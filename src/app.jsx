@@ -8,9 +8,9 @@ import Projects from './components/projects/projects';
 import Contact from './components/contact/contact';
 import TopBtn from './components/topBtn/topBtn';
 import About from './components/about/about';
-import Navbar from './components/navbar/navbar';
 import { ThemeProvider } from 'styled-components';
 import theme from "./style/theme";
+import Test from './components/useref_scrollintoview/test';
 
 export default function App() {
   const display = useSpring({ 
@@ -20,7 +20,7 @@ export default function App() {
     <ThemeProvider theme={theme}>
 
     <div className={styles.app}>
-      <Navbar />
+      <Test/>
       <TopBtn/>
     <header className={styles.header}>
       <animated.div style={display}>
